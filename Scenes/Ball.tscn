@@ -7,11 +7,10 @@ friction = 0.0
 bounce = 1.0
 
 [sub_resource type="RectangleShape2D" id=2]
-extents = Vector2( 8, 8 )
+extents = Vector2( 8.06287, 8.08051 )
 
 [node name="Ball" type="RigidBody2D"]
-editor/display_folded = true
-position = Vector2( 544, 488 )
+position = Vector2( 550.643, 488.787 )
 mode = 2
 physics_material_override = SubResource( 1 )
 gravity_scale = 0.0
@@ -28,6 +27,7 @@ margin_left = -8.0
 margin_top = -8.0
 margin_right = 8.0
 margin_bottom = 8.0
+color = Color( 0.972549, 0.603922, 0.0313726, 1 )
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 shape = SubResource( 2 )

@@ -1,0 +1,39 @@
+<?xml version="1.0" standalone="no" ?>
+<!DOCTYPE project PUBLIC "-//audacityproject-1.3.0//DTD//EN" "http://audacity.sourceforge.net/xml/audacityproject-1.3.0.dtd" >
+<project xmlns="http://audacity.sourceforge.net/xml/" projname="Techy_Song_data" version="1.3.0" audacityversion="2.3.3" sel0="17.3184721671" sel1="17.3184721671" vpos="0" h="0.0000000000" zoom="11.9525555143" rate="44100.0" snapto="off" selectionformat="hh:mm:ss + milliseconds" frequencyformat="Hz" bandwidthformat="octaves">
+	<tags>
+		<tag name="ENCODER" value="libsndfile"/>
+	</tags>
+	<wavetrack name="Techy_Song" isSelected="0" height="150" minimized="0" channel="0" linked="1" mute="0" solo="0" rate="44100" gain="1.0" pan="0.0" colorindex="0">
+		<waveclip offset="0.00000000" colorindex="0">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="763745">
+				<waveblock start="0">
+					<simpleblockfile filename="eff1f42c.au" len="262144" min="-0.83905" max="0.951874" rms="0.280814"/>
+				</waveblock>
+				<waveblock start="262144">
+					<simpleblockfile filename="eff1f4af.au" len="262144" min="-0.856506" max="0.989594" rms="0.291043"/>
+				</waveblock>
+				<waveblock start="524288">
+					<simpleblockfile filename="eff1f26e.au" len="239457" min="-0.834869" max="0.954987" rms="0.232197"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="Techy_Song" isSelected="0" height="150" minimized="0" channel="1" linked="0" mute="0" solo="0" rate="44100" gain="1.0" pan="0.0" colorindex="0">
+		<waveclip offset="0.00000000" colorindex="0">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="763745">
+				<waveblock start="0">
+					<simpleblockfile filename="eff1f35b.au" len="262144" min="-0.83255" max="0.953766" rms="0.274186"/>
+				</waveblock>
+				<waveblock start="262144">
+					<simpleblockfile filename="eff1f505.au" len="262144" min="-0.845581" max="0.9646" rms="0.288226"/>
+				</waveblock>
+				<waveblock start="524288">
+					<simpleblockfile filename="eff1f1f9.au" len="239457" min="-0.859894" max="0.946106" rms="0.231748"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+</project>
